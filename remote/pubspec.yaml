@@ -1,0 +1,21 @@
+name: remote
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.0.1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: ^5.2.1+1
+  injectable: ^2.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+  injectable_generator: ^2.1.6
+  build_runner: ^2.4.5
+  mockito: ^5.4.2
